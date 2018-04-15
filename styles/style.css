@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-/* universal styles  */
+/************************ universal styles ****************/
 
 body{
   font-family: 'Raleway', sans-serif;
@@ -72,9 +72,12 @@ ul, li, a{
   box-shadow: inset 45px -40px 100px #1f1f1f;
 }
 
+.bg-image:hover {
+    filter: invert(11%);
+}
 
 
-/////////////////////////* GALLERY SECTION */
+/******************** GALLERY SECTION *******************/
 
 .gallery-image {
   background-position: center;
@@ -117,7 +120,7 @@ ul, li, a{
   padding: 0 4px;
 }
 
-/* MAGNIFIC POPUP *////////////////////
+/********************* MAGNIFIC POPUP *****************/
 
 .mfp-bg {
   top: 0;
@@ -145,5 +148,3 @@ img.mfp-img {
   margin: 0 auto;
   filter: saturate(25%);
 }
-
-/*  FOOTER *//////////////////////////
